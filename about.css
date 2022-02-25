@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mochiy+Pop+P+One&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Quintessential&family=Source+Serif+Pro:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutpage{
+    background-image: url("backgroundabout.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+.aboutpage h1{
+    text-align: center;
+    color: blueviolet;
+    position: relative;
+    top: 15px;
+    font-family:'Mochiy Pop P One', sans-serif;
+}
+.imgcont img{
+    height: 57vh;
+    width: 31vw;
+    margin: 88px;
+    border-radius: 50%;
+    border: 9px solid blueviolet;
+}
+.aboutbox{
+    height: 68vh;
+    width: 46vw;
+    display: inline-block;
+    position: absolute;
+    top: 123px;
+}
+.aboutbox .text{
+    font-size: 35px;
+    font-weight: bold;
+}
+.aboutbox span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.aboutbox p{
+    font-size: 21px;
+}
